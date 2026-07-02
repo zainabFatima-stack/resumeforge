@@ -1,6 +1,6 @@
 from pydantic_settings import BaseSettings
 from typing import Optional
-
+from pydantic import Field
 
 class Settings(BaseSettings):
     # App
@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     ENVIRONMENT: str = "development"
 
     # Database
-    DATABASE_URL: str = "postgresql://resumeforge:password@localhost:5432/resumeforge"
+    DATABASE_URL: str = Field(validation_alias="DATABASE_URL")
 
     # Security
     SECRET_KEY: str = "change-me-in-production"
