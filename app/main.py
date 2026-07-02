@@ -12,7 +12,7 @@ async def lifespan(app: FastAPI):
     # Create all tables on startup
     Base.metadata.create_all(bind=engine)
     print(f"✅ ResumeForge v{settings.VERSION} started")
-    print(f"📚 API Docs: http://localhost:8000/docs")
+    print("📚 API Docs available at /docs")
     yield
     print("🛑 Shutting down...")
 
@@ -27,10 +27,11 @@ app = FastAPI(
 )
 
 # Middleware
-app.add_middleware(GZipMiddleware, minimum_size=1000)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.FRONTEND_URL, "http://localhost:5173", "http://localhost:3000"],
+    allow_origins=[
+        "https://resumeforge-ffd9.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

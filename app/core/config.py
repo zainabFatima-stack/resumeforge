@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     GROQ_API_KEY: Optional[str] = None
 
     # CORS
-    FRONTEND_URL: str = "http://localhost:5173"
+    FRONTEND_URL: str = "https://resumeforge-ffd9.vercel.app"
 
     class Config:
         env_file = ".env"
