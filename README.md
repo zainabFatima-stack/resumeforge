@@ -1,3 +1,4 @@
+
 # 🚀 ResumeForge
 
 <div align="center">
@@ -272,3 +273,7 @@ Made with ❤️ by the open-source community
 <br>
 ⭐ Star us on GitHub if this helped you land a job!
 </div>
+<img width="1913" height="1047" alt="Screenshot 2026-07-14 150809" src="https://github.com/user-attachments/assets/7871abeb-c211-4ccc-9dbe-b92e80f38770" />
+<img width="1909" height="984" alt="Screenshot 2026-07-14 150821" src="https://github.com/user-attachments/assets/d21b0337-3e04-48eb-9bbd-cdad1a8dc073" />
+<img width="1917" height="1074" alt="Screenshot 2026-07-14 150835" src="https://github.com/user-attachments/assets/51a77b1b-cc2d-4f54-b6b6-53ddd7f6b3a7" />
+<img width="1917" height="1055" alt="Screenshot 2026-07-14 150900" src="https://github.com/user-attachments/assets/275bfd97-d3db-4cfd-b1e6-9a2dd3942e3b" />
